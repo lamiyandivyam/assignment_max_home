@@ -1,0 +1,16 @@
+{
+  "name": "europa-mission",
+  "version": "1.0.0",
+  "description": "Navigation module for the Europa Exploration Mission",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  }
+}
