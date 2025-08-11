@@ -43,6 +43,6 @@ The program reads its instructions from an `input.txt` file located in the root 
 As per the instructions, the following assumptions were made:
 
 1.  **Plateau Boundaries:** Robots are constrained by the plateau's boundaries. If a move instruction (`M`) would take a robot off the grid, the instruction is **ignored**, and the robot maintains its current position and orientation. This prevents the robots from getting lost.
-2.  **Valid Input:** The program assumes the `input.txt` file is correctly formatted and that all instructions and initial orientations are valid (i.e., instructions are only `L`, `R`, `M`. We have tried to make sure error are handled gracegfully 
-3.  [cite_start]**Sequential Execution:** As stated in the problem, robots move one after another in the order they appear in the input file. [cite: 24]
+2.  **Valid Input:** The program assumes the `input.txt` file is correctly formatted and that all instructions and initial orientations are valid (i.e., instructions are only `L`, `R`, `M`). We have tried to make sure error are handled gracegfully 
+3.  **Sequential Execution:** As stated in the problem, robots move sequentially one after another in the order they appear in the input file.
 
