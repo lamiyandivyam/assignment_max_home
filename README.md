@@ -29,6 +29,7 @@ The program reads its instructions from an `input.txt` file located in the root 
 2.  **Execute the program:**
     Run the following command in your terminal:
     ```bash
+    npm build
     npm start
     ```
 
